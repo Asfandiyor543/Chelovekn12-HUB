@@ -35,11 +35,11 @@ MainSection:NewButton("Reset WS/JP", "Reset to all defaults", function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
 end)
 
--- Various games
+-- Various Games
 local VariousGames = Window:NewTab("VariousGames")
 local VariousGamesSection = Main:NewSection("Jail Break")
 
-Various gamesSection:NewButton("Jail Break", "Cheat Menu", function()
+VariousGamesSection:NewButton("Jail Break", "Cheat Menu", function()
     loadstring(game:HttpGet((‘https://raw.githubusercontent.com/BloxiYT/Diamond/main/JailBreak’),true))()
 end)
 
